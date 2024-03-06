@@ -1,0 +1,26 @@
+et escolha = parseInt(prompt("Escolha a bebida: (1 - Café, 2 - Leite, 3 - Chá)"));
+let valor = 0.0;
+
+
+switch (escolha) {
+    case 1:
+        valor = 4.5;
+        console.log("Você escolheu Café.");
+        break;
+    case 2:
+        valor = 2.0;
+        console.log("Você escolheu Leite.");
+        break;
+    case 3:
+        valor = 3.8;
+        console.log("Você escolheu Chá.");
+        break;
+    default:
+        console.log("Opção inválida. Escolha entre Café, Leite ou Chá.");
+        break;
+}
+
+
+if (valor > 0.0) {
+    console.log(Valor a pagar: R$ ${valor.toFixed(2)});
+}
